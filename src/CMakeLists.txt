@@ -79,6 +79,7 @@ target_link_libraries(vsgXchange
         ${EXTRA_LIBRARIES}
 )
 
+#[[
 install(TARGETS vsgXchange ${INSTALL_TARGETS_DEFAULT_FLAGS})
 
 if (BUILD_SHARED_LIBS)
@@ -95,3 +96,4 @@ vsg_add_cmake_support_files(
     CONFIG_TEMPLATE
         vsgXchangeConfig.cmake.in
 )
+]]
